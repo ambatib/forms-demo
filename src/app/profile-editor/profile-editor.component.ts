@@ -22,7 +22,7 @@ export class ProfileEditorComponent implements OnInit {
   //   })
   // });
   profileForm = this.fb.group({
-    firstName: ['',Validators.required],
+    firstName: ['', Validators.required],
     lastName: [''],
     address: this.fb.group({
       street: [''],
